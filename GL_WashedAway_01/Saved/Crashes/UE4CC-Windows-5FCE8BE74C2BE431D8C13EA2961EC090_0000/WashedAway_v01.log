@@ -1,0 +1,801 @@
+﻿Log file open, 06/04/20 18:55:45
+LogInit: Display: Running engine for game: WashedAway_v01
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 4.940567
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +10:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13594126
+LogInit: Engine Version: 4.25.1-13594126+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz, GPU: NVIDIA GeForce GT 740
+LogInit: Compiled (64-bit): Jun  2 2020 02:10:36
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line:  -EpicPortal -epicusername=Unreal_Boy_Gamer -epicuserid=95ae1772c20f45c9aa87dd578397ee2b -epiclocale=en
+LogInit: Base Directory: D:/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Trimester 1 2020/SIT110 - Creative Coding/Assignment 3/Merging_Files/GL_SO/AQUAPHOBIA/GL_WashedAway_01/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.06.04-08.55.46:378][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.06.04-08.55.46:378][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.06.04-08.55.46:378][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Trimester 1 2020/SIT110 - Creative Coding/Assignment 3/Merging_Files/GL_SO/AQUAPHOBIA/GL_WashedAway_01/Saved/Config/Windows/Engine.ini]
+[2020.06.04-08.55.46:378][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.06.04-08.55.46:378][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Trimester 1 2020/SIT110 - Creative Coding/Assignment 3/Merging_Files/GL_SO/AQUAPHOBIA/GL_WashedAway_01/Saved/Config/Windows/Engine.ini]
+[2020.06.04-08.55.46:378][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Trimester 1 2020/SIT110 - Creative Coding/Assignment 3/Merging_Files/GL_SO/AQUAPHOBIA/GL_WashedAway_01/Saved/Config/Windows/Engine.ini]
+[2020.06.04-08.55.46:378][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.06.04-08.55.46:378][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.06.04-08.55.46:378][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.06.04-08.55.46:378][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.06.04-08.55.46:378][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.06.04-08.55.46:378][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.06.04-08.55.46:378][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.06.04-08.55.46:378][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.06.04-08.55.46:378][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.06.04-08.55.46:378][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.06.04-08.55.46:378][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.06.04-08.55.46:378][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.06.04-08.55.46:378][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.06.04-08.55.46:378][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.06.04-08.55.46:378][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Trimester 1 2020/SIT110 - Creative Coding/Assignment 3/Merging_Files/GL_SO/AQUAPHOBIA/GL_WashedAway_01/Saved/Config/Windows/Engine.ini]
+[2020.06.04-08.55.46:378][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.06.04-08.55.46:378][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.06.04-08.55.46:378][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.06.04-08.55.46:378][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.06.04-08.55.46:378][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.06.04-08.55.46:378][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.06.04-08.55.46:378][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.06.04-08.55.46:378][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.06.04-08.55.46:378][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.06.04-08.55.46:378][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.06.04-08.55.46:378][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.06.04-08.55.46:378][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.06.04-08.55.46:378][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.06.04-08.55.46:378][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Trimester 1 2020/SIT110 - Creative Coding/Assignment 3/Merging_Files/GL_SO/AQUAPHOBIA/GL_WashedAway_01/Saved/Config/Windows/Engine.ini]
+[2020.06.04-08.55.46:378][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Trimester 1 2020/SIT110 - Creative Coding/Assignment 3/Merging_Files/GL_SO/AQUAPHOBIA/GL_WashedAway_01/Saved/Config/Windows/Engine.ini]
+[2020.06.04-08.55.46:382][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Trimester 1 2020/SIT110 - Creative Coding/Assignment 3/Merging_Files/GL_SO/AQUAPHOBIA/GL_WashedAway_01/Saved/Config/Windows/Scalability.ini]
+[2020.06.04-08.55.46:382][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.06.04-08.55.46:382][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.06.04-08.55.46:382][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Trimester 1 2020/SIT110 - Creative Coding/Assignment 3/Merging_Files/GL_SO/AQUAPHOBIA/GL_WashedAway_01/Saved/Config/Windows/Scalability.ini]
+[2020.06.04-08.55.46:382][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.06.04-08.55.46:382][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Trimester 1 2020/SIT110 - Creative Coding/Assignment 3/Merging_Files/GL_SO/AQUAPHOBIA/GL_WashedAway_01/Saved/Config/Windows/Scalability.ini]
+[2020.06.04-08.55.46:382][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.06.04-08.55.46:382][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.06.04-08.55.46:382][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.06.04-08.55.46:382][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.06.04-08.55.46:382][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.06.04-08.55.46:382][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.06.04-08.55.46:382][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.06.04-08.55.46:382][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.06.04-08.55.46:382][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.06.04-08.55.46:382][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.06.04-08.55.46:382][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.06.04-08.55.46:382][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.06.04-08.55.46:382][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.06.04-08.55.46:382][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.06.04-08.55.46:382][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.06.04-08.55.46:382][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.06.04-08.55.46:382][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.06.04-08.55.46:382][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.06.04-08.55.46:382][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Trimester 1 2020/SIT110 - Creative Coding/Assignment 3/Merging_Files/GL_SO/AQUAPHOBIA/GL_WashedAway_01/Saved/Config/Windows/Scalability.ini]
+[2020.06.04-08.55.46:382][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.06.04-08.55.46:382][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.06.04-08.55.46:382][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.06.04-08.55.46:382][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Trimester 1 2020/SIT110 - Creative Coding/Assignment 3/Merging_Files/GL_SO/AQUAPHOBIA/GL_WashedAway_01/Saved/Config/Windows/Scalability.ini]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Trimester 1 2020/SIT110 - Creative Coding/Assignment 3/Merging_Files/GL_SO/AQUAPHOBIA/GL_WashedAway_01/Saved/Config/Windows/Scalability.ini]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Trimester 1 2020/SIT110 - Creative Coding/Assignment 3/Merging_Files/GL_SO/AQUAPHOBIA/GL_WashedAway_01/Saved/Config/Windows/Scalability.ini]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Trimester 1 2020/SIT110 - Creative Coding/Assignment 3/Merging_Files/GL_SO/AQUAPHOBIA/GL_WashedAway_01/Saved/Config/Windows/Scalability.ini]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.06.04-08.55.46:383][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.06.04-08.55.46:383][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.04-08.55.46:383][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.06.04-08.55.46:384][  0]LogHAL: Display: Platform has ~ 8 GB [8538394624 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.06.04-08.55.46:384][  0]LogInit: Going up to parent DeviceProfile []
+[2020.06.04-08.55.46:384][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@1] File [D:/Trimester 1 2020/SIT110 - Creative Coding/Assignment 3/Merging_Files/GL_SO/AQUAPHOBIA/GL_WashedAway_01/Saved/Config/Windows/Scalability.ini]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:1]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.6]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@1] File [D:/Trimester 1 2020/SIT110 - Creative Coding/Assignment 3/Merging_Files/GL_SO/AQUAPHOBIA/GL_WashedAway_01/Saved/Config/Windows/Scalability.ini]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:2]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@1] File [D:/Trimester 1 2020/SIT110 - Creative Coding/Assignment 3/Merging_Files/GL_SO/AQUAPHOBIA/GL_WashedAway_01/Saved/Config/Windows/Scalability.ini]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.ShadowQuality:3]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:1024]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.05]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.7]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.25]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:.5]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@1] File [D:/Trimester 1 2020/SIT110 - Creative Coding/Assignment 3/Merging_Files/GL_SO/AQUAPHOBIA/GL_WashedAway_01/Saved/Config/Windows/Scalability.ini]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:60]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:1]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:350]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:2]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.7]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:2]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:3                 ; low number of samples when gathering]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:0    ; no foreground scattering]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:0    ; no foreground scattering]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Applying CVar settings from Section [TextureQuality@1] File [D:/Trimester 1 2020/SIT110 - Creative Coding/Assignment 3/Merging_Files/GL_SO/AQUAPHOBIA/GL_WashedAway_01/Saved/Config/Windows/Scalability.ini]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:1]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:2]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:4]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:600]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@1] File [D:/Trimester 1 2020/SIT110 - Creative Coding/Assignment 3/Merging_Files/GL_SO/AQUAPHOBIA/GL_WashedAway_01/Saved/Config/Windows/Scalability.ini]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:32]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:2 ; Medium quality]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.SSS.Scale:0.75]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.SSGI.Quality:1]]
+[2020.06.04-08.55.46:384][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.25]]
+[2020.06.04-08.55.46:385][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2020.06.04-08.55.46:385][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.06.04-08.55.46:385][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.06.04-08.55.46:385][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.06.04-08.55.46:385][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.06.04-08.55.46:385][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.06.04-08.55.46:385][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.06.04-08.55.46:385][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.06.04-08.55.46:385][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.06.04-08.55.46:385][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.06.04-08.55.46:385][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.06.04-08.55.46:385][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.06.04-08.55.46:385][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@1] File [D:/Trimester 1 2020/SIT110 - Creative Coding/Assignment 3/Merging_Files/GL_SO/AQUAPHOBIA/GL_WashedAway_01/Saved/Config/Windows/Scalability.ini]
+[2020.06.04-08.55.46:385][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.4]]
+[2020.06.04-08.55.46:385][  0]LogConfig: Setting CVar [[grass.DensityScale:0.4]]
+[2020.06.04-08.55.46:385][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@1] File [D:/Trimester 1 2020/SIT110 - Creative Coding/Assignment 3/Merging_Files/GL_SO/AQUAPHOBIA/GL_WashedAway_01/Saved/Config/Windows/Scalability.ini]
+[2020.06.04-08.55.46:385][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.06.04-08.55.46:385][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.06.04-08.55.46:385][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.06.04-08.55.46:385][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.06.04-08.55.46:385][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.06.04-08.55.46:385][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.06.04-08.55.46:385][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.06.04-08.55.46:385][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.06.04-08.55.46:385][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.06.04-08.55.46:385][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.06.04-08.55.46:385][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.06.04-08.55.46:385][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Trimester 1 2020/SIT110 - Creative Coding/Assignment 3/Merging_Files/GL_SO/AQUAPHOBIA/GL_WashedAway_01/Saved/Config/Windows/Engine.ini]
+[2020.06.04-08.55.46:385][  0]LogInit: Computer: GEORGE
+[2020.06.04-08.55.46:385][  0]LogInit: User: George
+[2020.06.04-08.55.46:385][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.06.04-08.55.46:385][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.06.04-08.55.46:385][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2020.06.04-08.55.46:386][  0]LogMemory: Platform Memory Stats for Windows
+[2020.06.04-08.55.46:386][  0]LogMemory: Process Physical Memory: 115.64 MB used, 115.65 MB peak
+[2020.06.04-08.55.46:386][  0]LogMemory: Process Virtual Memory: 97.52 MB used, 97.52 MB peak
+[2020.06.04-08.55.46:386][  0]LogMemory: Physical Memory: 6034.64 MB used,  2108.21 MB free, 8142.85 MB total
+[2020.06.04-08.55.46:386][  0]LogMemory: Virtual Memory: 5129.83 MB used,  134212600.00 MB free, 134217728.00 MB total
+[2020.06.04-08.55.46:392][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.06.04-08.55.46:424][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.06.04-08.55.46:426][  0]LogInit: Using OS detected language (en-US).
+[2020.06.04-08.55.46:426][  0]LogInit: Using OS detected locale (en-AU).
+[2020.06.04-08.55.46:428][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.06.04-08.55.46:728][  0]LogInit: Setting process to per monitor DPI aware
+[2020.06.04-08.55.47:045][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.06.04-08.55.47:045][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.06.04-08.55.47:717][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.04-08.55.47:717][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.06.04-08.55.47:717][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.06.04-08.55.47:717][  0]LogD3D11RHI: D3D11 adapters:
+[2020.06.04-08.55.48:086][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 740' (Feature Level 11_0)
+[2020.06.04-08.55.48:086][  0]LogD3D11RHI:       2007/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.06.04-08.55.48:088][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.06.04-08.55.48:088][  0]LogD3D11RHI:       0/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.06.04-08.55.48:088][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.06.04-08.55.48:098][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.06.04-08.55.48:098][  0]LogD3D11RHI:     GPU DeviceId: 0xfc8 (for the marketing name, search the web for "GPU Device Id")
+[2020.06.04-08.55.48:098][  0]LogWindows: EnumDisplayDevices:
+[2020.06.04-08.55.48:098][  0]LogWindows:    0. 'NVIDIA GeForce GT 740' (P:1 D:1)
+[2020.06.04-08.55.48:098][  0]LogWindows:    1. 'NVIDIA GeForce GT 740' (P:0 D:0)
+[2020.06.04-08.55.48:099][  0]LogWindows:    2. 'NVIDIA GeForce GT 740' (P:0 D:0)
+[2020.06.04-08.55.48:099][  0]LogWindows:    3. 'NVIDIA GeForce GT 740' (P:0 D:0)
+[2020.06.04-08.55.48:100][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.06.04-08.55.48:100][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 740
+[2020.06.04-08.55.48:100][  0]LogD3D11RHI:   Driver Version: 432.00 (internal:26.21.14.3200, unified:432.00)
+[2020.06.04-08.55.48:100][  0]LogD3D11RHI:      Driver Date: 7-24-2019
+[2020.06.04-08.55.48:100][  0]LogRHI: Texture pool is 1404 MB (70% of 2007 MB)
+[2020.06.04-08.55.48:148][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2020.06.04-08.55.48:150][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.06.04-08.55.48:150][  0]LogD3D11RHI: Async texture creation enabled
+[2020.06.04-08.55.48:218][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.06.04-08.55.51:137][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.06.04-08.55.51:167][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.06.04-08.55.51:167][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.06.04-08.55.51:167][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.06.04-08.55.51:167][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.06.04-08.55.51:167][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.06.04-08.55.51:167][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.06.04-08.55.51:167][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.06.04-08.55.51:167][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.06.04-08.55.51:167][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.06.04-08.55.51:167][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.06.04-08.55.51:194][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.06.04-08.55.51:194][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.06.04-08.55.51:206][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.06.04-08.55.51:217][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.06.04-08.55.51:230][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.06.04-08.55.51:243][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.06.04-08.55.51:253][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.06.04-08.55.51:264][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.06.04-08.55.51:275][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.06.04-08.55.51:309][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.06.04-08.55.51:309][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.06.04-08.55.51:327][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.06.04-08.55.51:327][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.06.04-08.55.51:338][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.06.04-08.55.51:350][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.06.04-08.55.51:361][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.06.04-08.55.51:373][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.06.04-08.55.51:373][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.06.04-08.55.51:382][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.06.04-08.55.51:440][  0]LogShaderCompilers: Guid format shader working directory is -67 characters bigger than the processId version (../../../../Trimester 1 2020/SIT110 - Creative Coding/Assignment 3/Merging_Files/GL_SO/AQUAPHOBIA/GL_WashedAway_01/Intermediate/Shaders/WorkingDirectory/2276/).
+[2020.06.04-08.55.51:440][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/George/AppData/Local/Temp/UnrealShaderWorkingDir/62B0D1B148B0229AA46E799D829DCA00/'.
+[2020.06.04-08.55.51:441][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.06.04-08.55.51:441][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.06.04-08.55.51:441][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.06.04-08.55.53:299][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.06.04-08.55.53:478][  0]LogDerivedDataCache: Loaded boot cache 0.18s 114MB C:/Users/George/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.06.04-08.55.53:478][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/George/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.06.04-08.55.53:506][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Trimester 1 2020/SIT110 - Creative Coding/Assignment 3/Merging_Files/GL_SO/AQUAPHOBIA/GL_WashedAway_01/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.06.04-08.55.53:506][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.06.04-08.55.53:506][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Trimester 1 2020/SIT110 - Creative Coding/Assignment 3/Merging_Files/GL_SO/AQUAPHOBIA/GL_WashedAway_01/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.04-08.55.53:506][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.06.04-08.55.53:521][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.06.04-08.55.53:522][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.04-08.55.53:522][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.06.04-08.55.53:524][  0]LogDerivedDataCache: Using Local data cache path C:/Users/George/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.06.04-08.55.53:525][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.06.04-08.55.53:525][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.06.04-08.55.53:585][  0]LogSlate: Using FreeType 2.10.0
+[2020.06.04-08.55.53:586][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.06.04-08.55.53:628][  0]LogAssetRegistry: FAssetRegistry took 0.0046 seconds to start up
+[2020.06.04-08.55.53:933][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.04-08.55.54:067][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.06.04-08.55.54:067][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.06.04-08.55.54:067][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.06.04-08.55.54:067][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.06.04-08.55.54:067][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.06.04-08.55.54:085][  0]LogNetVersion: WashedAway_v01 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 392547622)
+[2020.06.04-08.55.55:485][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (00000248CB5D1B40), frame # 0
+[2020.06.04-08.55.55:485][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000248CC3B9080), frame # 0
+[2020.06.04-08.55.55:487][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000248CB424800), frame # 0
+[2020.06.04-08.55.56:972][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 1.441917 seconds
+[2020.06.04-08.55.56:980][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.06.04-08.55.56:980][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.06.04-08.55.56:980][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.06.04-08.55.57:999][  0]LogMaterial: Display: Missing cached shader map for material Velocity, compiling. 
+[2020.06.04-08.55.58:016][  0]LogMaterial: Display: Missing cached shader map for material PreTonemapHDRColor, compiling. 
+[2020.06.04-08.55.58:021][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 6
+[2020.06.04-08.55.58:021][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2020.06.04-08.55.58:021][  0]LogMaterial: Display: Missing cached shader map for material PostTonemapHDRColor, compiling. 
+[2020.06.04-08.55.58:142][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 12
+[2020.06.04-08.55.58:170][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.06.04-08.55.58:176][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.06.04-08.55.58:197][  0]LogMaterial: Display: Missing cached shader map for material DefaultMaterial, compiling. 
+[2020.06.04-08.55.58:397][  0]SourceControl: Source control is disabled
+[2020.06.04-08.55.58:397][  0]SourceControl: Source control is disabled
+[2020.06.04-08.55.58:400][  0]SourceControl: Source control is disabled
+[2020.06.04-08.55.58:402][  0]SourceControl: Source control is disabled
+[2020.06.04-08.55.58:409][  0]SourceControl: Source control is disabled
+[2020.06.04-08.55.58:528][  0]LogMaterial: Display: Missing cached shader map for material M_VolumeRenderSphereTracePP, compiling. 
+[2020.06.04-08.55.58:646][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.06.04-08.55.58:663][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.06.04-08.55.58:663][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.06.04-08.55.58:694][  0]LogMaterial: Display: Missing cached shader map for material OculusMR_WhiteMaterial, compiling. 
+[2020.06.04-08.55.58:712][  0]LogMaterial: Display: Missing cached shader map for material OculusMR_ChromaKey, compiling. 
+[2020.06.04-08.55.58:725][  0]LogMaterial: Display: Missing cached shader map for material OculusMR_ChromaKey_Lit, compiling. 
+[2020.06.04-08.55.58:779][  0]LogMaterial: Display: Missing cached shader map for material OculusMR_OpaqueColoredMaterial, compiling. 
+[2020.06.04-08.55.58:783][  0]LogOcInput: OculusInput pre-init called
+[2020.06.04-08.55.58:795][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.06.04-08.55.58:795][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.06.04-08.55.58:846][  0]LogMaterial: Display: Missing cached shader map for material HighResScreenshot, compiling. 
+[2020.06.04-08.55.58:853][  0]LogMaterial: Display: Missing cached shader map for material HighResScreenshotMask, compiling. 
+[2020.06.04-08.55.58:862][  0]LogMaterial: Display: Missing cached shader map for material HighResScreenshotCaptureRegion, compiling. 
+[2020.06.04-08.55.58:894][  0]LogEngine: Initializing Engine...
+[2020.06.04-08.55.59:611][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.04-08.55.59:661][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.06.04-08.55.59:662][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.06.04-08.55.59:668][  0]LogMaterial: Display: Missing cached shader map for material LevelColorationLitMaterial, compiling. Is special engine material.
+[2020.06.04-08.56.00:149][  0]LogMaterial: Display: Missing cached shader map for material LevelColorationUnlitMaterial, compiling. Is special engine material.
+[2020.06.04-08.56.00:344][  0]LogMaterial: Display: Missing cached shader map for material MAT_LevelColorationLitLightmapUV, compiling. Is special engine material.
+[2020.06.04-08.56.00:740][  0]LogMaterial: Display: Missing cached shader map for material ShadedLevelColorationLitMaterial, compiling. Is special engine material.
+[2020.06.04-08.56.01:157][  0]LogMaterial: Display: Missing cached shader map for material ShadedLevelColorationUnlitMateri, compiling. Is special engine material.
+[2020.06.04-08.56.01:358][  0]LogMaterial: Display: Missing cached shader map for material VertexColorMaterial, compiling. 
+[2020.06.04-08.56.01:417][  0]LogMaterial: Display: Missing cached shader map for material VertexColorViewMode_ColorOnly, compiling. 
+[2020.06.04-08.56.01:432][  0]LogMaterial: Display: Missing cached shader map for material VertexColorViewMode_AlphaAsColor, compiling. 
+[2020.06.04-08.56.01:445][  0]LogMaterial: Display: Missing cached shader map for material VertexColorViewMode_RedOnly, compiling. 
+[2020.06.04-08.56.01:457][  0]LogMaterial: Display: Missing cached shader map for material VertexColorViewMode_GreenOnly, compiling. 
+[2020.06.04-08.56.01:469][  0]LogMaterial: Display: Missing cached shader map for material VertexColorViewMode_BlueOnly, compiling. 
+[2020.06.04-08.56.01:481][  0]LogMaterial: Display: Missing cached shader map for material RemoveSurfaceMaterial, compiling. 
+[2020.06.04-08.56.01:485][  0]LogMaterial: Display: Missing cached shader map for material DebugMeshMaterial, compiling. 
+[2020.06.04-08.56.01:494][  0]LogMaterial: Display: Missing cached shader map for material EmissiveMeshMaterial, compiling. 
+[2020.06.04-08.56.01:504][  0]LogMaterial: Display: Missing cached shader map for material M_InvalidLightmapSettings, compiling. 
+[2020.06.04-08.56.01:523][  0]LogMaterial: Display: Missing cached shader map for material GizmoMaterial, compiling. 
+[2020.06.04-08.56.01:533][  0]LogMaterial: Display: Missing cached shader map for material PhAT_JointLimitMaterial, compiling. 
+[2020.06.04-08.56.01:543][  0]LogMaterial: Display: Missing cached shader map for material GeomMaterial, compiling. 
+[2020.06.04-08.56.01:550][  0]LogMaterial: Display: Missing cached shader map for material EditorBrushMaterial, compiling. 
+[2020.06.04-08.56.01:557][  0]LogMaterial: Display: Missing cached shader map for material BoneWeightMaterial, compiling. 
+[2020.06.04-08.56.01:601][  0]LogMaterial: Display: Missing cached shader map for material ClothMaterial, compiling. 
+[2020.06.04-08.56.01:610][  0]LogMaterial: Display: Missing cached shader map for material ClothMaterial_WF, compiling. 
+[2020.06.04-08.56.01:621][  0]LogMaterial: Display: Missing cached shader map for material DebugEditorMaterial, compiling. 
+[2020.06.04-08.56.01:629][  0]LogMaterial: Display: Missing cached shader map for material PhysicalMaterialMaskMaterial, compiling. 
+[2020.06.04-08.56.01:689][  0]LogMaterial: Display: Missing cached shader map for material PreviewShadowIndicatorMaterial, compiling. 
+[2020.06.04-08.56.01:787][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.06.04-08.56.01:828][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.06.04-08.56.01:828][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000248E332FC00), frame # 0
+[2020.06.04-08.56.01:828][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000248E339D800), frame # 0
+[2020.06.04-08.56.01:842][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.04-08.56.01:842][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.04-08.56.01:842][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.04-08.56.01:842][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.04-08.56.01:842][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.04-08.56.01:842][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.04-08.56.01:842][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.04-08.56.01:843][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.04-08.56.01:843][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.04-08.56.01:843][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.04-08.56.01:864][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.04-08.56.01:864][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.06.04-08.56.02:336][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.06.04-08.56.02:344][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.04-08.56.02:346][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.04-08.56.02:346][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.04-08.56.02:348][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.04-08.56.02:349][  0]LogInit: FAudioDevice initialized.
+[2020.06.04-08.56.02:350][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.06.04-08.56.07:026][  0]LogDerivedDataCache: Saved boot cache 4.68s 115MB C:/Users/George/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.06.04-08.56.07:039][  0]LogInit: Texture streaming: Enabled
+[2020.06.04-08.56.07:941][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.06.04-08.56.07:941][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.06.04-08.56.12:024][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.06.04-08.56.12:910][  0]LogInit: Transaction tracking system initialized
+[2020.06.04-08.56.12:930][  0]BlueprintLog: New page: Editor Load
+[2020.06.04-08.56.12:994][  0]LocalizationService: Localization service is disabled
+[2020.06.04-08.56.17:424][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.06.04-08.56.17:425][  0]LogCook: Display: Mobile HDR setting 1
+[2020.06.04-08.56.17:753][  0]LogFileCache: Scanning file cache for directory 'D:/Trimester 1 2020/SIT110 - Creative Coding/Assignment 3/Merging_Files/GL_SO/AQUAPHOBIA/GL_WashedAway_01/Content/' took 0.63s
+[2020.06.04-08.56.18:100][  0]SourceControl: Source control is disabled
+[2020.06.04-08.56.18:100][  0]LogUnrealEdMisc: Loading editor; pre map load, took 41.515
+[2020.06.04-08.56.18:547][  0]LightingResults: New page: Lighting Build
+[2020.06.04-08.56.18:548][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.06.04-08.56.18:548][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.04-08.56.18:548][  0]MapCheck: New page: Map Check
+[2020.06.04-08.56.18:548][  0]LightingResults: New page: Lighting Build
+[2020.06.04-08.56.31:711][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000248E332FC00), frame # 0
+[2020.06.04-08.56.31:711][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000248E339D800), frame # 0
+[2020.06.04-08.56.31:712][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2020.06.04-08.56.51:596][  0]LogStaticMesh: Building static mesh shark...
+[2020.06.04-08.56.53:109][  0]LogStaticMesh: Built static mesh [1.31s] /Game/Ian_AIFish_BluePrints/MODELS/shark.shark
+[2020.06.04-08.56.54:158][  0]LogStaticMesh: Building static mesh Antartica_UnrealUnits_v01...
+[2020.06.04-08.56.54:249][  0]LogStaticMesh: Built static mesh [0.24s] /Game/GeorgeL_Assets_BluePrints/3D_Objects/Antartica_UnrealUnits_v01.Antartica_UnrealUnits_v01
+[2020.06.04-08.56.55:636][  0]LogStaticMesh: Building static mesh Cube...
+[2020.06.04-08.56.55:637][  0]LogStaticMesh: Built static mesh [0.00s] /Game/GeorgeL_Assets_BluePrints/GeorgeL_BluePrints/Cube.Cube
+[2020.06.04-08.56.56:361][  0]LogStaticMesh: Building static mesh Interior_Room...
+[2020.06.04-08.56.56:373][  0]LogStaticMesh: Built static mesh [0.01s] /Game/GeorgeL_Assets_BluePrints/3D_Objects/Interior_Room.Interior_Room
+[2020.06.04-08.56.57:817][  0]LogStaticMesh: Building static mesh Water_Merged...
+[2020.06.04-08.56.57:819][  0]LogStaticMesh: Built static mesh [0.11s] /Game/GeorgeL_Assets_BluePrints/3D_Objects/Water_Merged.Water_Merged
+[2020.06.04-08.56.57:923][  0]LogMaterial: Display: Missing cached shader map for material Trop2, compiling. 
+[2020.06.04-08.56.59:428][  0]LogMaterial: Display: Missing cached shader map for material Water_01_TEXTURE, compiling. 
+[2020.06.04-08.56.59:573][  0]LogMaterial: Display: Missing cached shader map for material lambert01, compiling. 
+[2020.06.04-08.56.59:582][  0]LogMaterial: Display: Missing cached shader map for material Antarctica_TEXTURE, compiling. 
+[2020.06.04-08.56.59:954][  0]LogMaterial: Display: Missing cached shader map for material Invisible, compiling. 
+[2020.06.04-08.57.00:040][  0]LogMaterial: Display: Missing cached shader map for material Glowing, compiling. 
+[2020.06.04-08.57.00:314][  0]LogAIModule: Creating AISystem for world Aquaphobia_Final
+[2020.06.04-08.57.00:314][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000248E64AFE00), frame # 0
+[2020.06.04-08.57.00:314][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000248E6E11E40), frame # 0
+[2020.06.04-08.57.02:840][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.04-08.57.04:213][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2020.06.04-08.57.04:214][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.04-08.57.04:214][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.128ms to complete.
+[2020.06.04-08.57.04:214][  0]LogFileHelpers: Loading map 'Aquaphobia_Final' took 46.113
+[2020.06.04-08.57.04:217][  0]LogUnrealEdMisc: Total Editor Startup Time, took 87.631
+[2020.06.04-08.57.10:902][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4748
+[2020.06.04-08.57.10:902][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4738
+[2020.06.04-08.57.10:902][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4728
+[2020.06.04-08.57.10:902][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4718
+[2020.06.04-08.57.10:902][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4708
+[2020.06.04-08.57.10:902][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4698
+[2020.06.04-08.57.10:902][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.04-08.57.11:067][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.04-08.57.11:076][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.04-08.57.11:085][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.04-08.57.11:792][  0]LogCollectionManager: Loaded 0 collections in 0.002420 seconds
+[2020.06.04-08.57.18:157][  0]LogFileCache: Scanning file cache for directory 'D:/Trimester 1 2020/SIT110 - Creative Coding/Assignment 3/Merging_Files/GL_SO/AQUAPHOBIA/GL_WashedAway_01/Saved/Collections/' took 0.00s
+[2020.06.04-08.57.18:157][  0]LogFileCache: Scanning file cache for directory 'D:/Trimester 1 2020/SIT110 - Creative Coding/Assignment 3/Merging_Files/GL_SO/AQUAPHOBIA/GL_WashedAway_01/Content/Developers/George/Collections/' took 0.00s
+[2020.06.04-08.57.18:157][  0]LogFileCache: Scanning file cache for directory 'D:/Trimester 1 2020/SIT110 - Creative Coding/Assignment 3/Merging_Files/GL_SO/AQUAPHOBIA/GL_WashedAway_01/Content/Collections/' took 0.00s
+[2020.06.04-08.57.18:157][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4688
+[2020.06.04-08.57.18:157][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4678
+[2020.06.04-08.57.18:157][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4668
+[2020.06.04-08.57.18:157][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4658
+[2020.06.04-08.57.18:157][  0]LogContentBrowser: Native class hierarchy populated in 0.5443 seconds. Added 3427 classes and 821 folders.
+[2020.06.04-08.57.19:882][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4648
+[2020.06.04-08.57.19:883][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.06.04-08.57.36:645][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4638
+[2020.06.04-08.57.36:645][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4628
+[2020.06.04-08.57.36:645][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4618
+[2020.06.04-08.57.36:645][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4608
+[2020.06.04-08.57.36:645][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4598
+[2020.06.04-08.57.36:645][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4588
+[2020.06.04-08.57.36:645][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4578
+[2020.06.04-08.57.36:645][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4568
+[2020.06.04-08.57.36:645][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.06.04-08.57.37:517][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.1104 seconds. Added 2 classes and 0 folders.
+[2020.06.04-08.57.52:698][  0]LogSlate: Took 0.000312 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.06.04-08.57.52:814][  0]LogSlate: Took 0.000448 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.06.04-08.57.54:707][  0]LogSlate: Took 0.062922 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.06.04-08.58.08:788][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4558
+[2020.06.04-08.58.08:788][  0]LogRenderer: Reallocating scene render targets to support 1208x628 Format 9 NumSamples 1 (Frame:1).
+[2020.06.04-08.58.31:828][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4548
+[2020.06.04-08.58.31:828][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4538
+[2020.06.04-08.58.31:828][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4528
+[2020.06.04-08.58.31:828][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4518
+[2020.06.04-08.58.31:828][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4508
+[2020.06.04-08.58.31:828][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4498
+[2020.06.04-08.58.31:828][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4488
+[2020.06.04-08.58.31:828][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4478
+[2020.06.04-08.58.31:828][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4468
+[2020.06.04-08.58.31:828][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4458
+[2020.06.04-08.58.31:828][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4448
+[2020.06.04-08.58.31:828][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4438
+[2020.06.04-08.58.31:828][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4428
+[2020.06.04-08.58.31:828][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4418
+[2020.06.04-08.58.31:828][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4408
+[2020.06.04-08.58.31:828][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4398
+[2020.06.04-08.58.31:828][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4388
+[2020.06.04-08.58.31:828][  0]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4378
+[2020.06.04-08.58.31:828][  0]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4368
+[2020.06.04-08.58.31:853][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.06.04-08.58.31:853][  0]LogLoad: (Engine Initialization) Total time: 175.27 seconds
+[2020.06.04-08.58.31:853][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.06.04-08.58.32:159][  0]LogContentStreaming: Texture pool size now 600 MB
+[2020.06.04-08.58.32:439][  0]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4358
+[2020.06.04-08.58.32:439][  0]LogSlate: Took 0.020115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.04-08.58.32:619][  1]LogAssetRegistry: Asset discovery search completed in 158.9929 seconds
+[2020.06.04-08.58.32:624][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2020.06.04-08.58.32:957][  2]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4348
+[2020.06.04-08.58.34:404][  2]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4338
+[2020.06.04-08.58.35:727][  2]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4328
+[2020.06.04-08.58.35:929][  2]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4318
+[2020.06.04-08.58.36:857][  2]LogD3D11RHI: GetQueryData is taking a very long time (5.0 s)
+[2020.06.04-08.58.38:077][  3]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.04-08.58.38:202][  5]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4308
+[2020.06.04-08.58.38:231][  5]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4298
+[2020.06.04-08.58.39:674][ 52]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4288
+[2020.06.04-08.58.42:462][211]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4278
+[2020.06.04-08.58.42:517][214]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4268
+[2020.06.04-08.58.44:413][320]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4258
+[2020.06.04-08.58.47:348][480]LogStaticMesh: Building static mesh Cone...
+[2020.06.04-08.58.47:434][480]LogStaticMesh: Built static mesh [0.09s] /Game/GeorgeL_Assets_BluePrints/GeorgeL_BluePrints/Cone.Cone
+[2020.06.04-08.58.47:487][480]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/GeorgeL_Assets_BluePrints/GeorgeL_BluePrints/Cube_Blueprint.Cube_Blueprint
+[2020.06.04-08.58.47:650][480]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4248
+[2020.06.04-08.58.48:049][480]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4238
+[2020.06.04-08.58.48:049][480]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4228
+[2020.06.04-08.58.50:012][480]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 125 classes and 0 folders.
+[2020.06.04-08.58.52:045][480]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4218
+[2020.06.04-08.58.52:045][480]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4208
+[2020.06.04-08.58.52:045][480]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4198
+[2020.06.04-08.58.52:931][480]LogMaterial: Display: Missing cached shader map for material Noise512x512_TEXTURE_Mat, compiling. 
+[2020.06.04-08.58.52:969][480]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/GeorgeL_Assets_BluePrints/GeorgeL_BluePrints/Cone_Blueprint.Cone_Blueprint
+[2020.06.04-08.58.53:453][480]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/GeorgeL_Assets_BluePrints/GeorgeL_BluePrints/Weeping_AngelPowers_Blueprint.Weeping_AngelPowers_Blueprint
+[2020.06.04-08.58.53:827][480]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4203
+[2020.06.04-08.58.54:046][480]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4193
+[2020.06.04-08.58.54:046][480]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4183
+[2020.06.04-08.58.54:046][480]LogStaticMesh: Building static mesh Sphere...
+[2020.06.04-08.58.54:087][480]LogStaticMesh: Built static mesh [0.07s] /Game/GeorgeL_Assets_BluePrints/GeorgeL_BluePrints/Sphere.Sphere
+[2020.06.04-08.58.54:118][480]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/GeorgeL_Assets_BluePrints/GeorgeL_BluePrints/AI.AI
+[2020.06.04-08.58.54:728][480]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.06.04-08.58.56:794][480]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4173
+[2020.06.04-08.58.56:794][480]LogStats: FPlatformStackWalk::StackWalkAndDump -  2.066 s
+[2020.06.04-08.58.56:806][480]LogOutputDevice: Error: === Handled ensure: ===
+[2020.06.04-08.58.56:806][480]LogOutputDevice: Error: 
+[2020.06.04-08.58.56:806][480]LogOutputDevice: Error: Ensure condition failed: Cast<APawn>(NewUpdatedComponent->GetOwner()) [File:D:/Build/++UE4+Licensee/Sync/Engine/Source/Runtime/Engine/Private/Components/PawnMovementComponent.cpp] [Line: 18]
+[2020.06.04-08.58.56:806][480]LogOutputDevice: Error: FloatingPawnMovement must update a component owned by a Pawn
+[2020.06.04-08.58.56:806][480]LogOutputDevice: Error: Stack: 
+[2020.06.04-08.58.56:806][480]LogOutputDevice: Error: [Callstack] 0x00007ffff7763aa2 UE4Editor-Engine.dll!UnknownFunction []
+[2020.06.04-08.58.56:806][480]LogOutputDevice: Error: [Callstack] 0x00007ffff630141d UE4Editor-Engine.dll!UnknownFunction []
+[2020.06.04-08.58.56:806][480]LogOutputDevice: Error: [Callstack] 0x00007ffff62eb7d3 UE4Editor-Engine.dll!UnknownFunction []
+[2020.06.04-08.58.56:806][480]LogOutputDevice: Error: [Callstack] 0x00007ffff5ede4ed UE4Editor-Engine.dll!UnknownFunction []
+[2020.06.04-08.58.56:806][480]LogOutputDevice: Error: [Callstack] 0x00007ffff5ee5834 UE4Editor-Engine.dll!UnknownFunction []
+[2020.06.04-08.58.56:806][480]LogOutputDevice: Error: [Callstack] 0x00007ffff5ecc59c UE4Editor-Engine.dll!UnknownFunction []
+[2020.06.04-08.58.56:806][480]LogOutputDevice: Error: [Callstack] 0x00007ffff5ee947a UE4Editor-Engine.dll!UnknownFunction []
+[2020.06.04-08.58.56:806][480]LogOutputDevice: Error: [Callstack] 0x00007ffff6773128 UE4Editor-Engine.dll!UnknownFunction []
+[2020.06.04-08.58.56:806][480]LogOutputDevice: Error: [Callstack] 0x00007ffff6773598 UE4Editor-Engine.dll!UnknownFunction []
+[2020.06.04-08.58.56:806][480]LogOutputDevice: Error: [Callstack] 0x00007ff80af06330 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.06.04-08.58.56:806][480]LogOutputDevice: Error: [Callstack] 0x00007ff80af04380 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.06.04-08.58.56:806][480]LogOutputDevice: Error: [Callstack] 0x00007ff8016a05e9 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.06.04-08.58.56:806][480]LogOutputDevice: Error: [Callstack] 0x00007ff801a7992e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.06.04-08.58.56:806][480]LogOutputDevice: Error: [Callstack] 0x00007ff8023500d6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.06.04-08.58.56:806][480]LogOutputDevice: Error: [Callstack] 0x00007ff6fe437800 UE4Editor.exe!UnknownFunction []
+[2020.06.04-08.58.56:806][480]LogOutputDevice: Error: [Callstack] 0x00007ff6fe44ba7c UE4Editor.exe!UnknownFunction []
+[2020.06.04-08.58.56:806][480]LogOutputDevice: Error: [Callstack] 0x00007ff6fe44bb5a UE4Editor.exe!UnknownFunction []
+[2020.06.04-08.58.56:806][480]LogOutputDevice: Error: [Callstack] 0x00007ff6fe45e31d UE4Editor.exe!UnknownFunction []
+[2020.06.04-08.58.56:806][480]LogOutputDevice: Error: [Callstack] 0x00007ff6fe46145a UE4Editor.exe!UnknownFunction []
+[2020.06.04-08.58.56:806][480]LogOutputDevice: Error: [Callstack] 0x00007ff87ee57bd4 KERNEL32.DLL!UnknownFunction []
+[2020.06.04-08.58.56:806][480]LogOutputDevice: Error: [Callstack] 0x00007ff87eface51 ntdll.dll!UnknownFunction []
+[2020.06.04-08.58.56:806][480]LogOutputDevice: Error: 
